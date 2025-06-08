@@ -16,7 +16,12 @@ The **"Smart LED Lighting"** project enables automatic and manual control of LED
 - OLED display 128x64 px (SSD1306)  
 - 2× 10kΩ resistors (for LDRs)  
 - 2× 220Ω resistors (for LEDs)  
-- Jumper wires and power supply (USB or battery)  
+- Jumper wires and power supply (USB or battery)
+
+![WhatsApp Slika 2025-06-02 u 17 06 41_212f2a0d](https://github.com/user-attachments/assets/422d2512-0344-429c-ac4d-d1b0aa1660f6)
+![WhatsApp Slika 2025-06-02 u 17 06 41_ef96d776](https://github.com/user-attachments/assets/1645edb5-26ff-4187-922f-b8e6105c3b1a)
+
+
 
 ## 🧠 Libraries Used
 - `Wire` – I2C communication  
@@ -52,17 +57,15 @@ The user-friendly web interface includes:
 - Input fields for updating LDR thresholds (0–4095)  
 - Fully responsive design for mobile and desktop devices  
 
+![WhatsApp Slika 2025-06-02 u 17 06 40_1c680f74](https://github.com/user-attachments/assets/ab7e2ead-4dd0-485f-87d1-30dd839db23c)
+
 ## 📺 OLED Display
 - **Line 1**: LED1 status (e.g. `AUTO`)  
 - **Line 2**: LED2 status (e.g. `OFF`)  
-- **Line 3–4**: IP address (e.g. `192.168.1.145`)  
+- **Line 3–4**: IP address (e.g. `192.168.1.145`)
 
-## 📂 Project Code
-All source code is included in `main.ino`, featuring:
-- OLED initialization  
-- Web server route handling  
-- LDR-based LED control logic  
-- Dynamic HTML generation  
+![WhatsApp Slika 2025-06-02 u 17 32 54_eb54c650](https://github.com/user-attachments/assets/af728c12-05ad-4ce5-94e6-2877ffeb6383)
+
 
 ## 🚀 Getting Started
 1. Wire components according to your setup  
